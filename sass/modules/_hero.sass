@@ -1,67 +1,60 @@
 .hero
-	&-btn
-		position: fixed
-		margin-top: 50px
-		margin-bottom: 50px
-		margin-left: -37px
-		transform: rotate(90deg)
-		background-color: $turquoise
-		padding: 15px 25px
-		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10)
-		border-radius: 0px 6px 6px 0px
-		border: none
-		color: $black
-		font-family: WorkSans
-		font-size: 15px
-		font-style: normal
-		font-weight: 400
-		line-height: 20px
-		transition: color 0.3s
-		cursor: pointer
-		&:hover 
-			color: $orange
-	&-content
-		width: 100%
+	&__content
+		margin-top: 70px
 		display: flex
-		&-r
+		width: 100%
+		&__box1
 			width: 50%
-			margin-left: 75px
-			display: flex
-			flex-direction: column
-		&-l
-			margin-top: -50px
-
-		&-button
-			margin-left: 150px
+	&__title
+	
+		color: $white
+		font-family: 'Poppins'
+		font-size: 50px
+		font-style: normal
+		font-weight: 500
+		line-height: 140%
+	&__text
+		margin-top: 30px
+		width: 80%
+		color: $grey
+		font-family: 'Poppins'
+		font-size: 18px
+		font-style: normal
+		font-weight: 400
+		line-height: 30px
+	&__input
+		margin-top: 80px
+		width: 75%		
+		padding-top: 15px
+		padding-bottom: 15px
+		padding-left: 15px
+		padding-right: 15px
+		border-radius: 15px
+		border: 1.5px solid rgba(255, 255, 255, 0.10)
+		background: #283036
+		display: flex 
+		align-items: center
+		justify-content: space-around
+		&__field
 			border: none
-			cursor: pointer
-
-
-	&-title
-		width: 50%
-		margin-left: 150px
-		color: $black
-		font-family: 'WorkSans', sans-serif
-		font-size: 55px
-		font-style: normal
-		font-weight: 400
-		line-height: 60px
-	&-subtitle
-		width: 70%	
-		margin-left: 150px
-		color: $black
-		font-family: 'WorkSans', sans-serif
-		font-size: 24px
-		font-style: normal
-		font-weight: 400
-		line-height: 35px
-
-
-			
-
-
-
-
-
-
-			
+			background-color: #283036
+			color: $orange
+			font-family: 'Poppins'
+			font-size: 14px
+			font-style: normal
+			font-weight: 400
+			line-height: normal
+			&:hover
+				border: none
+				outline: 0
+    		outline-offset: 0
+			&:active
+    		outline: 0
+    		outline-offset: 0
+			&:focus
+				border: none
+				outline: 0
+    		outline-offset: 0
+				
+	&__socialMedia
+		margin-top: 70px
