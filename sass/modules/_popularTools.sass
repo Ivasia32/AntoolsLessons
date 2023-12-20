@@ -26,14 +26,15 @@
 		justify-content: space-between
 		align-items: center
 		flex-wrap: wrap
-		border: 1px solid red
 		&__items
 			margin: 90px 33px 10px
-			border: 1px solid green
-			width: 30%
+			width: 25%
 			display: flex
 			flex-wrap: wrap
-
+			&:hover
+				box-shadow: 0px 0px 25px $grey
+				border-radius: 25px
+				
 .items
 	width: 100%
 	&__logo
@@ -41,7 +42,7 @@
 		margin: 33px 10px 10px 10px 
 	&__title
 		width: 70%
-		margin-top: 25px
+		margin-top: 34px
 		display: flex
 		flex-direction: column
 		color: rgba(255, 255, 255, 0.78)
@@ -68,3 +69,40 @@
 		font-style: normal
 		font-weight: 400
 		line-height: 30px
+	&__icon
+		margin-bottom: 34px
+		width: 75%
+		padding-left: 15px
+		cursor: pointer
+
+		&__img
+			margin-right: 25px
+
+	&__button
+		margin-bottom: 34px
+		width: 25%
+		display: flex
+		justify-content: center
+		align-items: center
+		border: none
+		background: none
+
+.popularTools__button
+	margin: auto
+	margin-top: 142px
+	margin-bottom: 50px
+	padding: 15px 25px
+	background: none
+	border: none
+	color: $orange
+	font-family: 'Poppins'
+	font-size: 20px
+	font-style: normal
+	font-weight: 500
+	line-height: normal
+	cursor: pointer
+	transition: color .3s
+	&:hover
+		color: $white
+		box-shadow: 0px 0px 25px $orange
+		border-radius: 30px
